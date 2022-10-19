@@ -9,7 +9,7 @@ services:
     container_name: all_for_one
     # Mesmo que `docker run -t`
     tty: true
-    # Mesmo que `docker run -i`
+    # Mesmo que `docker run -i `
     stdin_open: true
     # Substitui o comando padrão da imagem do node
     command: bash
